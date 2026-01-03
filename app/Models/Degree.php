@@ -14,4 +14,9 @@ class Degree extends Model
     {
         return $this->belongsTo('App\Models\Student','student_id');
     }
+
+    public function quizze()
+    {
+        return $this->belongsTo('App\Models\Quizze','quiz_id');
+    }
 }

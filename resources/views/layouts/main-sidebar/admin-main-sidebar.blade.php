@@ -13,7 +13,7 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="dashboard" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="{{url('/')}}">{{ trans('main_trans.Main') }}</a> </li>
+                            <li> <a href="{{url('/dashboard')}}">{{ trans('main_trans.Main') }}</a> </li>
 
                         </ul>
                     </li>

@@ -71,7 +71,7 @@
                                         <td>{{$student->created_at}}</td>
                                         <td>
 
-                                            @if($student->attendence_status == 0)
+                                            @if($student->attendance_status == 0)
                                                 <span class="btn-danger">غياب</span>
                                             @else
                                                 <span class="btn-success">حضور</span>

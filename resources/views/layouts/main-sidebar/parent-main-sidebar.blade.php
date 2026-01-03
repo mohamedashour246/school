@@ -2,7 +2,7 @@
     <ul class="nav navbar-nav side-menu" id="sidebarnav">
         <!-- menu item Dashboard-->
         <li>
-            <a href="{{ url('/student/dashboard') }}">
+            <a href="{{ url('/parent/dashboard') }}">
                 <div class="pull-left"><i class="ti-home"></i><span
                         class="right-nav-text">{{trans('main_trans.Dashboard')}}</span>
                 </div>
@@ -29,6 +29,11 @@
         <li>
             <a href="{{ route('sons.fees') }}"><i class="fas fa-money"></i><span
                     class="right-nav-text"> تقرير المالية </span></a>
+        </li>
+
+        <li>
+            <a href="{{ route('profile.parent.show') }}"><i class="fas fa-id-card-alt"></i><span
+                    class="right-nav-text">الملف الشخصي</span></a>
         </li>
 
     </ul>
